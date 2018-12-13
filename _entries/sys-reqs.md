@@ -11,5 +11,6 @@ The following are the recommended system requirements for running ownCloud serve
 | Platform | Options | 
 | ---------| -------- |
 | Operating system | Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5 |
+| next | item |
 
 
