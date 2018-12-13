@@ -104,22 +104,54 @@
                     <h2>System requirements</h2>
                 
 
-            <p>The following are the recommended system requirements for running ownCloud server in a single-server deployment:</p>
+            <p>The host machine you use to install and run ownCloud must have the following minimum specifications:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Platform</th>
-      <th>Options</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Operating system</td>
-      <td>Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5</td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>Two CPU cores</li>
+  <li>16GB RAM</li>
+  <li>Local storage as required</li>
+</ul>
+
+<p>The following are the recommended software requirements for running ownCloud server in a single-server deployment:</p>
+
+<ul>
+  <li><strong>Operating system:</strong>
+    <ul>
+      <li>
+        <p>Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5 <br />
+  <strong>Note:</strong> Red Hat Enterprise Linux &amp; Centos 7 are 64-bit only</p>
+      </li>
+      <li>
+        <p>SUSE Linux Enterprise Server 12 with SP1, SP2 and SP3</p>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Database:</strong>
+    <ul>
+      <li>MySQL <br />
+  <strong>Note:</strong> SQLite is not encouraged for production use.</li>
+      <li>MariaDB 5.5 or higher. <br />
+  <strong>Note</strong> With either dataase you must use the InnoDB storage engine because MyISAM is not supported.</li>
+    </ul>
+  </li>
+  <li><strong>Webserver:</strong>
+    <ul>
+      <li>Apache 2.4 with prefork apache-mpm-label and mod_php</li>
+    </ul>
+  </li>
+  <li><strong>Scripting Language Package:</strong></li>
+  <li>
+    <ul>
+      <li>PHP5.6 or higher</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Cron access</p>
+
+<p>SSL Configuration
+The SSL termination is done in Apache. A standard SSL certificate is required to be installed according to the official Apache documentation.</p>
+
 
         </section>
     
