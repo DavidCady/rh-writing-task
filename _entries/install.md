@@ -18,7 +18,7 @@ This guide assumes a single-server installation, which is appropriate for small 
 
 Authentication is performed using an LDAP or Active Directory Server.
 
-![](https://github.com/davidcady/rh-writing-task/blob/master/img/single-server-deployment.png)
+![](/img/single-server-deployment.png)
 
 
 
