@@ -1,0 +1,44 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  Product: ownCloud Server
+  Version: 6.0
+  folders:
+
+  - title: Quick Start Guide
+    output: web
+    folderitems:
+
+    - title: Introduction
+      url: /intro.html
+      output: web
+
+  - title: Installation
+    output: web
+    folderitems:
+
+    - title: Installation Overview 
+      url: /install.html
+      output: web
+      folderitems:
+
+    - title: System Requirements
+      url: /sys-reqs.html
+      output: web
+
+  - title: Creating a User Account
+    output: web
+    folderitems:
+
+    - title: Creating a User Account
+      url: /create-account.html
+      output: web
+
+  - title: Connecting from a client
+    output: web
+    folderitems:
+
+    - title: Connecting From a Client
+      url: /connect-client.html
+      output: web
