@@ -18,7 +18,8 @@ This guide assumes a single-server installation, which is appropriate for small 
 
 Authentication is performed using an LDAP or Active Directory Server.
 
-![](/img/single-server-deployment.png)
+![](https://i.imgur.com/4zPL0LM.png)
+
 
 
 
