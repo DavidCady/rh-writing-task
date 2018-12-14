@@ -11,7 +11,7 @@ entries:
     folderitems:
 
     - title: Introduction
-      url: /intro.html
+      url: /index.html
       output: web
 
   - title: Installation
@@ -21,23 +21,34 @@ entries:
     - title: Installation Overview 
       url: /install.html
       output: web
-      folderitems:
-
+   
     - title: System Requirements
       url: /sys-reqs.html
       output: web
 
-  - title: Creating a User Account
+    - title: Installing ownCloud Server
+      url: /install-server.html
+      output: web
+
+  - title: Configuration
     output: web
     folderitems:
+
+    - title: Configuring ownCloud Server
+      url: /configure.html
+      output: web
+
+  - title: Using ownCloud
+    output: web
+    folderitems:
+
+    - title: Loging in to ownCloud From the Server
+      url: login.html
+      output: web
 
     - title: Creating a User Account
       url: /create-account.html
       output: web
-
-  - title: Connecting from a client
-    output: web
-    folderitems:
 
     - title: Connecting From a Client
       url: /connect-client.html
